@@ -1,0 +1,4 @@
+# Ignorer tout le dossier data
+data/
+
+models/
