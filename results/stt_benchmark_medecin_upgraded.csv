@@ -1,0 +1,1 @@
+audio_file,transcript,transcript_lemma,reference_text,reference_text_lemma,WER,Accuracy,BLEU3,METEOR,ROUGE-L,chrF,latency_sec,memory_mb

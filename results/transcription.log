@@ -1,0 +1,186 @@
+2025-10-17 11:09:05,935 [INFO] 🧠 Chargement du modèle Whisper (medium)...
+2025-10-17 11:09:19,513 [INFO] ✅ Modèle Whisper chargé avec succès !
+2025-10-17 11:09:19,517 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJerome1_0.wav
+2025-10-17 11:09:39,078 [INFO] ✅ Ligne ajoutée au CSV pour enreJerome1_0.wav
+2025-10-17 11:09:39,079 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJerome1_1.wav
+2025-10-17 11:09:58,227 [INFO] ✅ Ligne ajoutée au CSV pour enreJerome1_1.wav
+2025-10-17 11:09:58,234 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJerome1_2.wav
+2025-10-17 11:10:14,914 [INFO] ✅ Ligne ajoutée au CSV pour enreJerome1_2.wav
+2025-10-17 11:10:14,915 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJerome1_3.wav
+2025-10-17 11:10:33,493 [INFO] ✅ Ligne ajoutée au CSV pour enreJerome1_3.wav
+2025-10-17 11:10:33,493 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJerome1_4.wav
+2025-10-17 11:10:53,950 [INFO] ✅ Ligne ajoutée au CSV pour enreJerome1_4.wav
+2025-10-17 11:10:53,950 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJerome1_5.wav
+2025-10-17 11:11:14,482 [INFO] ✅ Ligne ajoutée au CSV pour enreJerome1_5.wav
+2025-10-17 11:11:14,483 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJerome1_6.wav
+2025-10-17 11:11:31,425 [INFO] ✅ Ligne ajoutée au CSV pour enreJerome1_6.wav
+2025-10-17 11:11:31,425 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJerome1_7.wav
+2025-10-17 11:11:44,590 [INFO] ✅ Ligne ajoutée au CSV pour enreJerome1_7.wav
+2025-10-17 11:11:44,591 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJerome2_0.wav
+2025-10-17 11:12:13,496 [INFO] ✅ Ligne ajoutée au CSV pour enreJerome2_0.wav
+2025-10-17 11:12:13,496 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJerome2_1.wav
+2025-10-17 11:12:32,693 [INFO] ✅ Ligne ajoutée au CSV pour enreJerome2_1.wav
+2025-10-17 11:12:32,693 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJerome2_2.wav
+2025-10-17 11:12:53,807 [INFO] ✅ Ligne ajoutée au CSV pour enreJerome2_2.wav
+2025-10-17 11:12:53,808 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJerome2_3.wav
+2025-10-17 11:13:09,645 [INFO] ✅ Ligne ajoutée au CSV pour enreJerome2_3.wav
+2025-10-17 11:13:09,646 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJerome2_4.wav
+2025-10-17 11:13:25,373 [INFO] ✅ Ligne ajoutée au CSV pour enreJerome2_4.wav
+2025-10-17 11:13:25,374 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien1_0.wav
+2025-10-17 11:13:40,327 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien1_0.wav
+2025-10-17 11:13:40,328 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien1_1.wav
+2025-10-17 11:13:56,097 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien1_1.wav
+2025-10-17 11:13:56,097 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien1_10.wav
+2025-10-17 11:14:11,576 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien1_10.wav
+2025-10-17 11:14:11,576 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien1_11.wav
+2025-10-17 11:14:35,220 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien1_11.wav
+2025-10-17 11:14:35,220 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien1_12.wav
+2025-10-17 11:15:38,077 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien1_12.wav
+2025-10-17 11:15:38,078 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien1_13.wav
+2025-10-17 11:15:48,877 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien1_13.wav
+2025-10-17 11:15:48,878 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien1_2.wav
+2025-10-17 11:16:03,617 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien1_2.wav
+2025-10-17 11:16:03,618 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien1_3.wav
+2025-10-17 11:16:18,387 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien1_3.wav
+2025-10-17 11:16:18,388 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien1_4.wav
+2025-10-17 11:16:32,944 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien1_4.wav
+2025-10-17 11:16:32,945 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien1_5.wav
+2025-10-17 11:16:49,230 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien1_5.wav
+2025-10-17 11:16:49,231 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien1_6.wav
+2025-10-17 11:17:02,375 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien1_6.wav
+2025-10-17 11:17:02,376 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien1_7.wav
+2025-10-17 11:17:15,473 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien1_7.wav
+2025-10-17 11:17:15,474 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien1_8.wav
+2025-10-17 11:17:37,183 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien1_8.wav
+2025-10-17 11:17:37,184 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien1_9.wav
+2025-10-17 11:17:57,821 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien1_9.wav
+2025-10-17 11:17:57,822 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien2_0.wav
+2025-10-17 11:18:18,890 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien2_0.wav
+2025-10-17 11:18:18,891 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien2_1.wav
+2025-10-17 11:18:42,043 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien2_1.wav
+2025-10-17 11:18:42,043 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien2_2.wav
+2025-10-17 11:19:03,635 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien2_2.wav
+2025-10-17 11:19:03,635 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien2_3.wav
+2025-10-17 11:19:37,920 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien2_3.wav
+2025-10-17 11:19:37,920 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien2_4.wav
+2025-10-17 11:20:04,408 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien2_4.wav
+2025-10-17 11:20:04,409 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien2_5.wav
+2025-10-17 11:20:26,713 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien2_5.wav
+2025-10-17 11:20:26,714 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien2_6.wav
+2025-10-17 11:20:47,940 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien2_6.wav
+2025-10-17 11:20:47,940 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien2_7.wav
+2025-10-17 11:21:08,626 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien2_7.wav
+2025-10-17 11:21:08,626 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien2_8.wav
+2025-10-17 11:21:22,691 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien2_8.wav
+2025-10-17 11:21:22,692 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien2_9.wav
+2025-10-17 11:21:31,169 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien2_9.wav
+2025-10-17 11:21:31,170 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien3_0.wav
+2025-10-17 11:21:42,602 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien3_0.wav
+2025-10-17 11:21:42,602 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien3_1.wav
+2025-10-17 11:21:56,062 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien3_1.wav
+2025-10-17 11:21:56,063 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien3_10.wav
+2025-10-17 11:22:11,137 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien3_10.wav
+2025-10-17 11:22:11,137 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien3_11.wav
+2025-10-17 11:22:22,340 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien3_11.wav
+2025-10-17 11:22:22,340 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien3_12.wav
+2025-10-17 11:22:39,739 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien3_12.wav
+2025-10-17 11:22:39,740 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien3_13.wav
+2025-10-17 11:22:51,980 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien3_13.wav
+2025-10-17 11:22:51,980 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien3_2.wav
+2025-10-17 11:23:06,510 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien3_2.wav
+2025-10-17 11:23:06,510 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien3_3.wav
+2025-10-17 11:23:21,697 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien3_3.wav
+2025-10-17 11:23:21,698 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien3_4.wav
+2025-10-17 11:23:36,268 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien3_4.wav
+2025-10-17 11:23:36,268 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien3_5.wav
+2025-10-17 11:23:49,441 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien3_5.wav
+2025-10-17 11:23:49,442 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien3_6.wav
+2025-10-17 11:24:05,581 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien3_6.wav
+2025-10-17 11:24:05,581 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien3_7.wav
+2025-10-17 11:24:20,341 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien3_7.wav
+2025-10-17 11:24:20,342 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien3_8.wav
+2025-10-17 11:24:36,069 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien3_8.wav
+2025-10-17 11:24:36,069 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien3_9.wav
+2025-10-17 11:24:51,157 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien3_9.wav
+2025-10-17 11:24:51,158 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien4_0.wav
+2025-10-17 11:25:05,070 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien4_0.wav
+2025-10-17 11:25:05,071 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien4_1.wav
+2025-10-17 11:25:23,221 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien4_1.wav
+2025-10-17 11:25:23,221 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien4_10.wav
+2025-10-17 11:25:43,116 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien4_10.wav
+2025-10-17 11:25:43,117 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien4_11.wav
+2025-10-17 11:25:59,859 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien4_11.wav
+2025-10-17 11:25:59,860 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien4_12.wav
+2025-10-17 11:26:13,240 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien4_12.wav
+2025-10-17 11:26:13,241 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien4_2.wav
+2025-10-17 11:26:30,288 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien4_2.wav
+2025-10-17 11:26:30,288 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien4_3.wav
+2025-10-17 11:26:48,233 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien4_3.wav
+2025-10-17 11:26:48,233 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien4_4.wav
+2025-10-17 11:27:08,136 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien4_4.wav
+2025-10-17 11:27:08,136 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien4_5.wav
+2025-10-17 11:27:24,807 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien4_5.wav
+2025-10-17 11:27:24,807 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien4_6.wav
+2025-10-17 11:27:42,605 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien4_6.wav
+2025-10-17 11:27:42,605 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien4_7.wav
+2025-10-17 11:28:00,319 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien4_7.wav
+2025-10-17 11:28:00,319 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien4_8.wav
+2025-10-17 11:28:14,902 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien4_8.wav
+2025-10-17 11:28:14,903 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreJulien4_9.wav
+2025-10-17 11:28:31,640 [INFO] ✅ Ligne ajoutée au CSV pour enreJulien4_9.wav
+2025-10-17 11:28:31,641 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent1_0.wav
+2025-10-17 11:28:43,522 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent1_0.wav
+2025-10-17 11:28:43,522 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent1_1.wav
+2025-10-17 11:28:58,373 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent1_1.wav
+2025-10-17 11:28:58,373 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent1_10.wav
+2025-10-17 11:29:11,041 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent1_10.wav
+2025-10-17 11:29:11,041 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent1_11.wav
+2025-10-17 11:29:24,972 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent1_11.wav
+2025-10-17 11:29:24,972 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent1_12.wav
+2025-10-17 11:29:36,944 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent1_12.wav
+2025-10-17 11:29:36,944 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent1_13.wav
+2025-10-17 11:29:45,834 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent1_13.wav
+2025-10-17 11:29:45,834 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent1_2.wav
+2025-10-17 11:29:56,885 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent1_2.wav
+2025-10-17 11:29:56,886 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent1_3.wav
+2025-10-17 11:30:08,820 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent1_3.wav
+2025-10-17 11:30:08,820 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent1_4.wav
+2025-10-17 11:30:24,010 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent1_4.wav
+2025-10-17 11:30:24,011 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent1_5.wav
+2025-10-17 11:30:35,196 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent1_5.wav
+2025-10-17 11:30:35,197 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent1_6.wav
+2025-10-17 11:30:46,874 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent1_6.wav
+2025-10-17 11:30:46,874 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent1_7.wav
+2025-10-17 11:31:00,426 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent1_7.wav
+2025-10-17 11:31:00,426 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent1_8.wav
+2025-10-17 11:31:12,301 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent1_8.wav
+2025-10-17 11:31:12,301 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent1_9.wav
+2025-10-17 11:31:24,814 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent1_9.wav
+2025-10-17 11:31:24,815 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent2_0.wav
+2025-10-17 11:31:36,907 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent2_0.wav
+2025-10-17 11:31:36,907 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent2_1.wav
+2025-10-17 11:31:49,370 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent2_1.wav
+2025-10-17 11:31:49,370 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent2_10.wav
+2025-10-17 11:32:02,716 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent2_10.wav
+2025-10-17 11:32:02,717 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent2_11.wav
+2025-10-17 11:32:14,231 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent2_11.wav
+2025-10-17 11:32:14,231 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent2_12.wav
+2025-10-17 11:32:22,191 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent2_12.wav
+2025-10-17 11:32:22,192 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent2_2.wav
+2025-10-17 11:32:34,031 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent2_2.wav
+2025-10-17 11:32:34,032 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent2_3.wav
+2025-10-17 11:32:48,122 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent2_3.wav
+2025-10-17 11:32:48,123 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent2_4.wav
+2025-10-17 11:33:00,493 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent2_4.wav
+2025-10-17 11:33:00,494 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent2_5.wav
+2025-10-17 11:33:12,105 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent2_5.wav
+2025-10-17 11:33:12,106 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent2_6.wav
+2025-10-17 11:33:23,709 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent2_6.wav
+2025-10-17 11:33:23,709 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent2_7.wav
+2025-10-17 11:33:33,934 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent2_7.wav
+2025-10-17 11:33:33,934 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent2_8.wav
+2025-10-17 11:33:46,099 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent2_8.wav
+2025-10-17 11:33:46,100 [INFO] 🎧 Transcription en cours : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\enreVincent2_9.wav
+2025-10-17 11:33:56,672 [INFO] ✅ Ligne ajoutée au CSV pour enreVincent2_9.wav
+2025-10-17 11:33:56,672 [INFO] 
+📁 Toutes les transcriptions sont enregistrées dans : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\results\transcriptions.csv

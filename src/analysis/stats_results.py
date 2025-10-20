@@ -9,7 +9,7 @@ from src.common.config import REPORTING_DIR, RESULTS_DIR
 # ---------------------------------------------------------------------
 # Lecture des résultats
 # ---------------------------------------------------------------------
-BENCHMARK_CSV = os.path.join(RESULTS_DIR, "benchmark_vosk-model-small-fr-0.22.csv")
+BENCHMARK_CSV = os.path.join(RESULTS_DIR, "medecin/benchmark_vosk-model-small-fr-0.22_medecin.csv")
 df = pd.read_csv(BENCHMARK_CSV)
 
 # Nettoyage : mémoire négative → 0
@@ -73,7 +73,7 @@ for model_name, group_df in df_clean.groupby('model'):
                 'kurtosis': kurtosis(col_data) if np.var(col_data) > 1e-12 else np.nan
             }
     stats_df = pd.DataFrame(agg_dict).T
-    stats_df.to_csv(os.path.join(model_dir, f"{model_name}_stats.csv"))
+    stats_df.to_csv(os.path.join(model_dir, f"{model_name}_stats_medecin.csv"))
     stats[model_name] = stats_df
 
 # ---------------------------------------------------------------------
@@ -109,7 +109,7 @@ for col in cols:
     for model_name in df_plot['model'].unique():
         model_dir = os.path.join(REPORTING_DIR, model_name)
         os.makedirs(model_dir, exist_ok=True)
-        plt.savefig(os.path.join(model_dir, f"boxplot_{col}.png"))
+        plt.savefig(os.path.join(model_dir, f"boxplot_{col}_medecin.png"))
     plt.close()
 
 print(f"Statistiques et boxplots sauvegardés dans {REPORTING_DIR}")

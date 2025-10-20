@@ -1,0 +1,10 @@
+2025-10-17 12:29:53,077 [INFO] Chargement du modèle Vosk : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\models\vosk-model-small-fr-0.22
+2025-10-17 12:29:53,518 [WARNING] Vocabulaire introuvable : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\vocabulaire\medical_vocab.json
+2025-10-17 12:29:53,519 [INFO] 0 fichiers audio trouvés dans C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\raw\enregistrements
+2025-10-17 12:29:53,519 [INFO] Using default tokenizer.
+2025-10-17 12:29:53,519 [INFO] CSV des résultats enregistré dans : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\results\stt_benchmark_medecin_upgraded.csv
+2025-10-17 12:31:04,396 [INFO] Chargement du modèle Vosk : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\models\vosk-model-small-fr-0.22
+2025-10-17 12:31:04,833 [WARNING] Vocabulaire introuvable : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\vocabulaire\medical_vocab.json
+2025-10-17 12:31:04,835 [INFO] 91 fichiers audio trouvés dans C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed
+2025-10-17 12:31:04,835 [INFO] Using default tokenizer.
+2025-10-17 12:31:04,835 [INFO] Transcription de : enreJerome1_0.wav

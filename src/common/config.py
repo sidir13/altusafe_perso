@@ -23,16 +23,18 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 MODELS_DIR = os.path.join(BASE_DIR, "models")
 RESULTS_DIR = os.path.join(BASE_DIR, "results")
 DOCS_DIR = os.path.join(BASE_DIR, "docs")
-
+PROCESSED_DIR = os.path.join(DATA_DIR,"processed")
 # ---------------------------------------------------------------------
 # Sous-dossiers des données
 # ---------------------------------------------------------------------
 
 RAW_DATA_DIR = os.path.join(DATA_DIR, "raw")
+MEDECIN_DATA_DIR = os.path.join(RAW_DATA_DIR, "enregistrements")
 PROCESSED_DATA_DIR = os.path.join(DATA_DIR, "processed")
+VOCAB_DATA_DIR = os.path.join(DATA_DIR, "vocabulaire")
 NOISE_DIR = os.path.join(DATA_DIR, "noise")
 TRANSCRIPTS_DIR = os.path.join(DATA_DIR, "transcripts")
-TSV_DIR = os.path.join(DATA_DIR, "tsv")  # Nouveau : dossier contenant les fichiers TSV Common Voice
+TSV_DIR = os.path.join(DATA_DIR, "tsv")  
 
 # ---------------------------------------------------------------------
 #  Fichiers résultats
