@@ -1,0 +1,118 @@
+2025-10-20 16:10:23,113 [INFO] Début du traitement des fichiers audio dans : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\raw\enregistrements
+2025-10-20 16:10:23,113 [INFO] Les segments seront enregistrés dans : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\wav_data_v2
+2025-10-20 16:10:23,114 [INFO] Chargement du fichier : enreJerome1.mp4
+2025-10-20 16:10:23,218 [INFO] Conversion réussie -> C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\wav_data_v2\temp_wav\enreJerome1.wav
+2025-10-20 16:10:23,224 [INFO] Durée totale : 61.72s, Sample rate : 16000, Channels : 1
+2025-10-20 16:10:23,228 [INFO]   Segment 0: 10.00s -> enreJerome1_seg0.wav
+2025-10-20 16:10:23,233 [INFO]   Segment 1: 10.00s -> enreJerome1_seg1.wav
+2025-10-20 16:10:23,236 [INFO]   Segment 2: 10.00s -> enreJerome1_seg2.wav
+2025-10-20 16:10:23,240 [INFO]   Segment 3: 10.00s -> enreJerome1_seg3.wav
+2025-10-20 16:10:23,243 [INFO]   Segment 4: 10.00s -> enreJerome1_seg4.wav
+2025-10-20 16:10:23,247 [INFO]   Segment 5: 10.00s -> enreJerome1_seg5.wav
+2025-10-20 16:10:23,251 [INFO]   Segment 6: 10.00s -> enreJerome1_seg6.wav
+2025-10-20 16:10:23,254 [INFO]   Segment 7: 5.72s -> enreJerome1_seg7.wav
+2025-10-20 16:10:23,254 [INFO] Chargement du fichier : enreJerome2.mp4
+2025-10-20 16:10:23,330 [INFO] Conversion réussie -> C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\wav_data_v2\temp_wav\enreJerome2.wav
+2025-10-20 16:10:23,334 [INFO] Durée totale : 39.51s, Sample rate : 16000, Channels : 1
+2025-10-20 16:10:23,339 [INFO]   Segment 0: 10.00s -> enreJerome2_seg0.wav
+2025-10-20 16:10:23,343 [INFO]   Segment 1: 10.00s -> enreJerome2_seg1.wav
+2025-10-20 16:10:23,347 [INFO]   Segment 2: 10.00s -> enreJerome2_seg2.wav
+2025-10-20 16:10:23,350 [INFO]   Segment 3: 10.00s -> enreJerome2_seg3.wav
+2025-10-20 16:10:23,353 [INFO]   Segment 4: 7.51s -> enreJerome2_seg4.wav
+2025-10-20 16:10:23,353 [INFO] Chargement du fichier : enreJulien1.ogg
+2025-10-20 16:10:23,513 [INFO] Conversion réussie -> C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\wav_data_v2\temp_wav\enreJulien1.wav
+2025-10-20 16:10:23,519 [INFO] Durée totale : 104.13s, Sample rate : 16000, Channels : 1
+2025-10-20 16:10:23,523 [INFO]   Segment 0: 10.00s -> enreJulien1_seg0.wav
+2025-10-20 16:10:23,527 [INFO]   Segment 1: 10.00s -> enreJulien1_seg1.wav
+2025-10-20 16:10:23,531 [INFO]   Segment 2: 10.00s -> enreJulien1_seg2.wav
+2025-10-20 16:10:23,534 [INFO]   Segment 3: 10.00s -> enreJulien1_seg3.wav
+2025-10-20 16:10:23,538 [INFO]   Segment 4: 10.00s -> enreJulien1_seg4.wav
+2025-10-20 16:10:23,542 [INFO]   Segment 5: 10.00s -> enreJulien1_seg5.wav
+2025-10-20 16:10:23,546 [INFO]   Segment 6: 10.00s -> enreJulien1_seg6.wav
+2025-10-20 16:10:23,549 [INFO]   Segment 7: 10.00s -> enreJulien1_seg7.wav
+2025-10-20 16:10:23,552 [INFO]   Segment 8: 10.00s -> enreJulien1_seg8.wav
+2025-10-20 16:10:23,556 [INFO]   Segment 9: 10.00s -> enreJulien1_seg9.wav
+2025-10-20 16:10:23,560 [INFO]   Segment 10: 10.00s -> enreJulien1_seg10.wav
+2025-10-20 16:10:23,563 [INFO]   Segment 11: 10.00s -> enreJulien1_seg11.wav
+2025-10-20 16:10:23,566 [INFO]   Segment 12: 8.13s -> enreJulien1_seg12.wav
+2025-10-20 16:10:23,568 [INFO]   Segment 13: 0.13s -> enreJulien1_seg13.wav
+2025-10-20 16:10:23,569 [INFO] Chargement du fichier : enreJulien2.ogg
+2025-10-20 16:10:23,690 [INFO] Conversion réussie -> C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\wav_data_v2\temp_wav\enreJulien2.wav
+2025-10-20 16:10:23,696 [INFO] Durée totale : 75.23s, Sample rate : 16000, Channels : 1
+2025-10-20 16:10:23,701 [INFO]   Segment 0: 10.00s -> enreJulien2_seg0.wav
+2025-10-20 16:10:23,705 [INFO]   Segment 1: 10.00s -> enreJulien2_seg1.wav
+2025-10-20 16:10:23,708 [INFO]   Segment 2: 10.00s -> enreJulien2_seg2.wav
+2025-10-20 16:10:23,712 [INFO]   Segment 3: 10.00s -> enreJulien2_seg3.wav
+2025-10-20 16:10:23,716 [INFO]   Segment 4: 10.00s -> enreJulien2_seg4.wav
+2025-10-20 16:10:23,720 [INFO]   Segment 5: 10.00s -> enreJulien2_seg5.wav
+2025-10-20 16:10:23,723 [INFO]   Segment 6: 10.00s -> enreJulien2_seg6.wav
+2025-10-20 16:10:23,727 [INFO]   Segment 7: 10.00s -> enreJulien2_seg7.wav
+2025-10-20 16:10:23,731 [INFO]   Segment 8: 10.00s -> enreJulien2_seg8.wav
+2025-10-20 16:10:23,733 [INFO]   Segment 9: 3.23s -> enreJulien2_seg9.wav
+2025-10-20 16:10:23,733 [INFO] Chargement du fichier : enreJulien3.ogg
+2025-10-20 16:10:23,884 [INFO] Conversion réussie -> C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\wav_data_v2\temp_wav\enreJulien3.wav
+2025-10-20 16:10:23,890 [INFO] Durée totale : 111.75s, Sample rate : 16000, Channels : 1
+2025-10-20 16:10:23,895 [INFO]   Segment 0: 10.00s -> enreJulien3_seg0.wav
+2025-10-20 16:10:23,898 [INFO]   Segment 1: 10.00s -> enreJulien3_seg1.wav
+2025-10-20 16:10:23,901 [INFO]   Segment 2: 10.00s -> enreJulien3_seg2.wav
+2025-10-20 16:10:23,904 [INFO]   Segment 3: 10.00s -> enreJulien3_seg3.wav
+2025-10-20 16:10:23,908 [INFO]   Segment 4: 10.00s -> enreJulien3_seg4.wav
+2025-10-20 16:10:23,911 [INFO]   Segment 5: 10.00s -> enreJulien3_seg5.wav
+2025-10-20 16:10:23,914 [INFO]   Segment 6: 10.00s -> enreJulien3_seg6.wav
+2025-10-20 16:10:23,918 [INFO]   Segment 7: 10.00s -> enreJulien3_seg7.wav
+2025-10-20 16:10:23,921 [INFO]   Segment 8: 10.00s -> enreJulien3_seg8.wav
+2025-10-20 16:10:23,925 [INFO]   Segment 9: 10.00s -> enreJulien3_seg9.wav
+2025-10-20 16:10:23,929 [INFO]   Segment 10: 10.00s -> enreJulien3_seg10.wav
+2025-10-20 16:10:23,932 [INFO]   Segment 11: 10.00s -> enreJulien3_seg11.wav
+2025-10-20 16:10:23,936 [INFO]   Segment 12: 10.00s -> enreJulien3_seg12.wav
+2025-10-20 16:10:23,939 [INFO]   Segment 13: 7.75s -> enreJulien3_seg13.wav
+2025-10-20 16:10:23,939 [INFO] Chargement du fichier : enreJulien4.ogg
+2025-10-20 16:10:24,086 [INFO] Conversion réussie -> C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\wav_data_v2\temp_wav\enreJulien4.wav
+2025-10-20 16:10:24,093 [INFO] Durée totale : 103.37s, Sample rate : 16000, Channels : 1
+2025-10-20 16:10:24,100 [INFO]   Segment 0: 10.00s -> enreJulien4_seg0.wav
+2025-10-20 16:10:24,103 [INFO]   Segment 1: 10.00s -> enreJulien4_seg1.wav
+2025-10-20 16:10:24,107 [INFO]   Segment 2: 10.00s -> enreJulien4_seg2.wav
+2025-10-20 16:10:24,110 [INFO]   Segment 3: 10.00s -> enreJulien4_seg3.wav
+2025-10-20 16:10:24,114 [INFO]   Segment 4: 10.00s -> enreJulien4_seg4.wav
+2025-10-20 16:10:24,118 [INFO]   Segment 5: 10.00s -> enreJulien4_seg5.wav
+2025-10-20 16:10:24,122 [INFO]   Segment 6: 10.00s -> enreJulien4_seg6.wav
+2025-10-20 16:10:24,127 [INFO]   Segment 7: 10.00s -> enreJulien4_seg7.wav
+2025-10-20 16:10:24,132 [INFO]   Segment 8: 10.00s -> enreJulien4_seg8.wav
+2025-10-20 16:10:24,136 [INFO]   Segment 9: 10.00s -> enreJulien4_seg9.wav
+2025-10-20 16:10:24,140 [INFO]   Segment 10: 10.00s -> enreJulien4_seg10.wav
+2025-10-20 16:10:24,144 [INFO]   Segment 11: 10.00s -> enreJulien4_seg11.wav
+2025-10-20 16:10:24,148 [INFO]   Segment 12: 7.37s -> enreJulien4_seg12.wav
+2025-10-20 16:10:24,148 [INFO] Chargement du fichier : enreVincent1.m4a
+2025-10-20 16:10:24,286 [INFO] Conversion réussie -> C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\wav_data_v2\temp_wav\enreVincent1.wav
+2025-10-20 16:10:24,292 [INFO] Durée totale : 106.69s, Sample rate : 16000, Channels : 1
+2025-10-20 16:10:24,297 [INFO]   Segment 0: 10.00s -> enreVincent1_seg0.wav
+2025-10-20 16:10:24,300 [INFO]   Segment 1: 10.00s -> enreVincent1_seg1.wav
+2025-10-20 16:10:24,303 [INFO]   Segment 2: 10.00s -> enreVincent1_seg2.wav
+2025-10-20 16:10:24,307 [INFO]   Segment 3: 10.00s -> enreVincent1_seg3.wav
+2025-10-20 16:10:24,310 [INFO]   Segment 4: 10.00s -> enreVincent1_seg4.wav
+2025-10-20 16:10:24,314 [INFO]   Segment 5: 10.00s -> enreVincent1_seg5.wav
+2025-10-20 16:10:24,317 [INFO]   Segment 6: 10.00s -> enreVincent1_seg6.wav
+2025-10-20 16:10:24,321 [INFO]   Segment 7: 10.00s -> enreVincent1_seg7.wav
+2025-10-20 16:10:24,324 [INFO]   Segment 8: 10.00s -> enreVincent1_seg8.wav
+2025-10-20 16:10:24,328 [INFO]   Segment 9: 10.00s -> enreVincent1_seg9.wav
+2025-10-20 16:10:24,331 [INFO]   Segment 10: 10.00s -> enreVincent1_seg10.wav
+2025-10-20 16:10:24,335 [INFO]   Segment 11: 10.00s -> enreVincent1_seg11.wav
+2025-10-20 16:10:24,338 [INFO]   Segment 12: 10.00s -> enreVincent1_seg12.wav
+2025-10-20 16:10:24,341 [INFO]   Segment 13: 2.69s -> enreVincent1_seg13.wav
+2025-10-20 16:10:24,342 [INFO] Chargement du fichier : enreVincent2.m4a
+2025-10-20 16:10:24,474 [INFO] Conversion réussie -> C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\wav_data_v2\temp_wav\enreVincent2.wav
+2025-10-20 16:10:24,482 [INFO] Durée totale : 96.87s, Sample rate : 16000, Channels : 1
+2025-10-20 16:10:24,487 [INFO]   Segment 0: 10.00s -> enreVincent2_seg0.wav
+2025-10-20 16:10:24,491 [INFO]   Segment 1: 10.00s -> enreVincent2_seg1.wav
+2025-10-20 16:10:24,495 [INFO]   Segment 2: 10.00s -> enreVincent2_seg2.wav
+2025-10-20 16:10:24,498 [INFO]   Segment 3: 10.00s -> enreVincent2_seg3.wav
+2025-10-20 16:10:24,502 [INFO]   Segment 4: 10.00s -> enreVincent2_seg4.wav
+2025-10-20 16:10:24,506 [INFO]   Segment 5: 10.00s -> enreVincent2_seg5.wav
+2025-10-20 16:10:24,510 [INFO]   Segment 6: 10.00s -> enreVincent2_seg6.wav
+2025-10-20 16:10:24,514 [INFO]   Segment 7: 10.00s -> enreVincent2_seg7.wav
+2025-10-20 16:10:24,517 [INFO]   Segment 8: 10.00s -> enreVincent2_seg8.wav
+2025-10-20 16:10:24,521 [INFO]   Segment 9: 10.00s -> enreVincent2_seg9.wav
+2025-10-20 16:10:24,524 [INFO]   Segment 10: 10.00s -> enreVincent2_seg10.wav
+2025-10-20 16:10:24,528 [INFO]   Segment 11: 8.87s -> enreVincent2_seg11.wav
+2025-10-20 16:10:24,531 [INFO]   Segment 12: 0.87s -> enreVincent2_seg12.wav
+2025-10-20 16:10:24,531 [INFO] ✅ Traitement terminé. Tous les segments sont dans : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\wav_data_v2

@@ -1,0 +1,9 @@
+python -m src.benchmarks.stt_benchmark_medecinaudio_file,reference_file,WER
+C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\temp_wav\enreJerome1.wav,C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\transcripts\enreJerome1.txt,0.0
+C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\temp_wav\enreJerome2.wav,C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\transcripts\enreJerome2.txt,0.0
+C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\temp_wav\enreJulien1.wav,C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\transcripts\enreJulien1.txt,0.0
+C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\temp_wav\enreJulien2.wav,C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\transcripts\enreJulien2.txt,0.0
+C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\temp_wav\enreJulien3.wav,C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\transcripts\enreJulien3.txt,0.0
+C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\temp_wav\enreJulien4.wav,C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\transcripts\enreJulien4.txt,0.0
+C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\temp_wav\enreVincent1.wav,C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\transcripts\enreVincent1.txt,0.0
+C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\processed\temp_wav\enreVincent2.wav,C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\data\transcripts\enreVincent2.txt,0.0

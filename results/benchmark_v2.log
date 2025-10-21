@@ -1,0 +1,524 @@
+2025-10-20 16:47:36,879 [INFO] Benchmark du modèle : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\models\vosk-model-small-fr-0.22
+2025-10-20 16:47:36,879 [INFO] Nombre d'audios : 91 fichiers
+2025-10-20 16:47:37,385 [INFO] Using default tokenizer.
+2025-10-20 16:47:41,640 [WARNING] Erreur métriques pour enreJerome1_seg0.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): dès que il se agir de Monsieur jeannie mohammed pour le révélation de un terre ablation par micro ond de métastase hépatique
+2025-10-20 16:47:46,716 [WARNING] Erreur métriques pour enreJerome1_seg1.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): ce être à z hépatique de origine reiner un décision de son patient patienter en consultation un check list de bloc avoir être faire
+2025-10-20 16:47:51,002 [WARNING] Erreur métriques pour enreJerome1_seg2.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): de bloc avoir être faire on aller faire un guidage sou échographie an après le échographie principal
+2025-10-20 16:47:55,234 [WARNING] Erreur métriques pour enreJerome1_seg3.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): le principal tabulation aller être faire avec le générateur manger dynamique le générateur solaire oh oui un aiguille
+2025-10-20 16:47:59,683 [WARNING] Erreur métriques pour enreJerome1_seg4.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): un aiguille de quatorze cm et luire connaître un poche de froid comme ce être nécessaire à faire un bord sou écho par voie
+2025-10-20 16:48:04,246 [WARNING] Erreur métriques pour enreJerome1_seg5.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): avoir bord sou écho pas voir souci fois hygiène un seul aiguille via centrer un ablation par sur un ablation le six minute à le vie
+2025-10-20 16:48:07,860 [WARNING] Erreur métriques pour enreJerome1_seg6.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): de six minute à le puissance de cent watt un fois que ce être terminer le patient être réveiller
+2025-10-20 16:48:10,648 [WARNING] Erreur métriques pour enreJerome1_seg7.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): ce ne être réveiller et lui en le sortie être prévoir demain merci
+2025-10-20 16:48:16,159 [WARNING] Erreur métriques pour enreJerome2_seg0.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): lorsque il se agir de mme de jésus on aller faire un envoyer sur vénus pelvien au chef le cryptographie diagnostic
+2025-10-20 16:48:21,407 [WARNING] Erreur métriques pour enreJerome2_seg1.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): le filmographie diagnostic le semaine dernier qui avoir retrouver un seul la dire que gauche donc on aller pitier en cinq french quatre pièce avec le même
+2025-10-20 16:48:27,111 [WARNING] Erreur métriques pour enreJerome2_seg2.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): french requête notre avec le même matériel cobra cinq le embauche se faire avec véronique son ami le flacon de un extrême quatre six ce être à celer
+2025-10-20 16:48:32,458 [WARNING] Erreur métriques pour enreJerome2_seg3.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): quatre six avoir secouer on utiliser un micro-casque trou select un fois que cela être finir et avoir trancher en bus et on hum
+2025-10-20 16:48:36,505 [WARNING] Erreur métriques pour enreJerome2_seg4.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): dimanche en bus et on luire donner un rendez-vous consultation à trois mois aller ce être partir merci à tout
+2025-10-20 16:48:41,049 [WARNING] Erreur métriques pour enreJulien1_seg0.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): que de bonheur bonjour aujourd'hui on aller faire un radio fréquence de un nodule pulmonaire de lobby moyen il se agir
+2025-10-20 16:48:44,916 [WARNING] Erreur métriques pour enreJulien1_seg1.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): le bonheur de lobby moyen il se agir de un métastase aller probablement de un cancer prostatique donc
+2025-10-20 16:48:49,880 [WARNING] Erreur métriques pour enreJulien1_seg10.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): ce gîte et le président ahmadinejad ouai cela à le et voilà et après donc aller
+2025-10-20 16:48:56,868 [WARNING] Erreur métriques pour enreJulien1_seg11.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): je un question complexe que je te prendre natale de biopsie tchad même si on avoir déjà faire un dur déjà faire avant tout juste le ablation de arme à fois tu le avoir dire
+2025-10-20 16:49:02,713 [WARNING] Erreur métriques pour enreJulien1_seg12.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): un arme à fois tu le avoir dire le radiofréquence le radiofréquence me intéresser lego le format
+2025-10-20 16:49:06,616 [WARNING] Erreur métriques pour enreJulien1_seg2.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): le donc pour se faire en vain installer le patient en décubitus dorsal
+2025-10-20 16:49:10,312 [WARNING] Erreur métriques pour enreJulien1_seg3.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): le patient léger qui être faire sou anesthésie général et en aller procéder
+2025-10-20 16:49:14,275 [WARNING] Erreur métriques pour enreJulien1_seg4.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): lui être en vain procéder avec donc un long vue le localisation de allusion on avoir probablement pas besoin
+2025-10-20 16:49:17,410 [WARNING] Erreur métriques pour enreJulien1_seg5.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): on avoir probablement pas besoin de de faire un pneumothorax là encore on pouvoir peut-être prendre un
+2025-10-20 16:49:19,842 [WARNING] Erreur métriques pour enreJulien1_seg6.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): peut-être prendre un de palette de trois cm au deux trois et demi
+2025-10-20 16:49:22,597 [WARNING] Erreur métriques pour enreJulien1_seg7.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): et gant combat et et essayer de aller à part un à bord direct
+2025-10-20 16:49:26,568 [WARNING] Erreur métriques pour enreJulien1_seg8.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): arrêter que être -ce que on aller prendre le jeune le anesthésiste demande chanter de le jet pour ce passage
+2025-10-20 16:49:32,510 [WARNING] Erreur métriques pour enreJulien1_seg9.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): pour ce patient je penser que on ne avoir pas besoin de prendre le jet stream marche comment le à demande en nation le chirurgie et président ahmadinejad ouai
+2025-10-20 16:49:36,079 [WARNING] Erreur métriques pour enreJulien2_seg0.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): ok donc on avoir Monsieur sans jauger georges ce être un obligation de le prostate point pas cinq un à addendum non comparer sur un geste
+2025-10-20 16:49:39,681 [WARNING] Erreur métriques pour enreJulien2_seg1.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): donc on partir sur un geste assez classique un ouvrage scot puisque un comme on faire de habitude on pour bien préparer le notre patient allonger sou sédation et même je vouloir qui être
+2025-10-20 16:49:42,954 [WARNING] Erreur métriques pour enreJulien2_seg2.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): sion et même je vouloir qui être sou âgé parce que aujourd'hui attention être vigilant aller utiliser un nouveau matériel si lui micro cathéter sniper ce être de de pincette
+2025-10-20 16:49:46,758 [WARNING] Erreur métriques pour enreJulien2_seg3.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): peur ce être de de pincette de accord donc que il avoir assez gros je savoir pas si on arriver à le mjc que à le prostate mais je croire que le bout il être plus petit non je croire que le en de point de
+2025-10-20 16:49:50,611 [WARNING] Erreur métriques pour enreJulien2_seg4.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): boule en deux point de saint cathéter avalon qui aller nous permettre de injecter de le aulne il avoir comme vous le savoir le onu que cela faire mal donc il falloir bien qui dormir au moment de le injection et cela coûter rien
+2025-10-20 16:49:54,909 [WARNING] Erreur métriques pour enreJulien2_seg5.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): son et cela coûter rien de rajouter un peu de xiv quand on inject clip non il falloir bien préparer donc voir que on vous utiliser de le eau nyx je vous proposer de dès à présent de quoi
+2025-10-20 16:49:58,927 [WARNING] Erreur métriques pour enreJulien2_seg6.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): je vous proposer de dès à présent de commensal le agiter sinon niveau technique donc on aller rester quatre french on aller faire comme de habitude de abord ferme avoir le droit
+2025-10-20 16:50:02,627 [WARNING] Erreur métriques pour enreJulien2_seg7.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): tu devoir de abord ferme avoir le droit à un geste que je aller je penser que il aller pas être trop long à mon avis il falloir dans deux heure ce être terminer en tout cas le prévoir sur deux heure maximum
+2025-10-20 16:50:06,341 [WARNING] Erreur métriques pour enreJulien2_seg8.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): voir sur deux heure maximum et le patient derrière il en hd gir tourner chez luire donc penser bien faire le courrier de agir à le égout
+2025-10-20 16:50:08,108 [WARNING] Erreur métriques pour enreJulien2_seg9.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): je y aller go
+2025-10-20 16:50:12,255 [WARNING] Erreur métriques pour enreJulien3_seg0.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): dans mon chambre bonjour tout le monde aujourd'hui on aller traiter mme sally fatima qui se
+2025-10-20 16:50:15,803 [WARNING] Erreur métriques pour enreJulien3_seg1.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): demain qui se plaindre de rectorat être abondant depuis quelque mois avec anémie mais stand de transfusion non que aujourd'hui en votre aide
+2025-10-20 16:50:20,490 [WARNING] Erreur métriques pour enreJulien3_seg10.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): all moyen en opacifiant au niveau de le artère talent inférieur au niveau de à rectal supérieur pouvoir déceler direct à rectal moyen long le embout lire pas
+2025-10-20 16:50:23,267 [WARNING] Erreur métriques pour enreJulien3_seg11.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): lire pas en passer par le artère iliaque interne voilà donc faire bien le vérification que
+2025-10-20 16:50:27,405 [WARNING] Erreur métriques pour enreJulien3_seg12.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): question que tout être bien là besoin de le asc pied de le graphie lui avoir pas besoin de scanner et voilà en effet pas de allergie à produit de contraste pas de allergie
+2025-10-20 16:50:30,540 [WARNING] Erreur métriques pour enreJulien3_seg13.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): le allergie produit de contraste pas de allergie à le bétadine moi good
+2025-10-20 16:50:34,213 [WARNING] Erreur métriques pour enreJulien3_seg2.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): non que aujourd'hui on aller traiter mort beau le hémorroïde interne on se faire un bord fémorale droit en quatre frangin
+2025-10-20 16:50:38,045 [WARNING] Erreur métriques pour enreJulien3_seg3.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): droit en quatre frangin reprendre un sonde sim un pour cathéter être alerter amusant avec inférieur et après un micro cathéter
+2025-10-20 16:50:41,845 [WARNING] Erreur métriques pour enreJulien3_seg4.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): après un micro cathéter de point zéro un point neuf que être -ce que on en micro peut-être à en prendre à boston un poids neuf
+2025-10-20 16:50:45,717 [WARNING] Erreur métriques pour enreJulien3_seg5.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): comme poids neuf faire on aller prendre un micro guid fête homme un enclave cas de taizé que être ce que il nous falloir de autre
+2025-10-20 16:50:50,652 [WARNING] Erreur métriques pour enreJulien3_seg6.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): lire que être -ce que il nous falloir de autre préparer le injecteur faire un thermographie un nouveau de le artère mésentent avec inférieur et on aller en bambou avec décorer le diptyque oil
+2025-10-20 16:50:55,464 [WARNING] Erreur métriques pour enreJulien3_seg7.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): liser avec décorer le diptyque oil stéréo tornado de millimètre et trois millimètre sans que on préparer tout cela un simple sédation suffire en avoir pas besoin de
+2025-10-20 16:50:59,279 [WARNING] Erreur métriques pour enreJulien3_seg8.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): le sédation suffire en avoir pas besoin de de le anesthésie général le patient lui être bien conscient on discuter au fur à mesure ce être un souci
+2025-10-20 16:51:03,965 [WARNING] Erreur métriques pour enreJulien3_seg9.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): au fur à mesure ce être un associer en cas précis on aller déceler un branche de le artère rectal moyen en opacifiant au niveau de le artère
+2025-10-20 16:51:07,273 [WARNING] Erreur métriques pour enreJulien4_seg0.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): ok donc on aller se occuper de Monsieur pouvoir véda donc un patient qui venir pour un tumeur de foie sincère
+2025-10-20 16:51:11,219 [WARNING] Erreur métriques pour enreJulien4_seg1.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): pour un tumeur de foie saint serg ce être en avoir déjà faire le biopsie ce sage ce être le pas visible en imagerie donc il falloir que on luire faire un marquage lit piolet donc le manifestation
+2025-10-20 16:51:15,730 [WARNING] Erreur métriques pour enreJulien4_seg10.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): décubitus dorsal il falloir raviole lever le main droite au dessus de le tête duncan je avoir le main droite vous faire bien attention à son clip suivre cale pour paquet de complication au réveil vous bien
+2025-10-20 16:51:19,373 [WARNING] Erreur métriques pour enreJulien4_seg11.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): quant au réveil être -ce que vous avoir bien compris aill à le anesthésie ce qui me demande si on mettre de le jet effectivement voir que le lésion le dans le doub ébahir fois que on être là jet
+2025-10-20 16:51:22,598 [WARNING] Erreur métriques pour enreJulien4_seg12.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): de ébahir fois que on être le jeter donc vous mettre le jet au moment de le ablation pas avant aller go
+2025-10-20 16:51:26,184 [WARNING] Erreur métriques pour enreJulien4_seg2.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): je lire piolet donc le manie pour vous préparer le table pour faire un abord artériel y avoir pas de liga marquer donc on aller y aller avec un sonde cobra enfreindre de abord fémorale
+2025-10-20 16:51:30,542 [WARNING] Erreur métriques pour enreJulien4_seg3.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): on froid de abord fémorale droit chez luire et on utiliser de liban doler on prendre environ de cesser que on mélange avec cinq cesser de eau et falloir aller dans le artère hépatique droite
+2025-10-20 16:51:35,188 [WARNING] Erreur métriques pour enreJulien4_seg4.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): pour il falloir aller dans le artère hépatique droite pour opacifier son module pour être sûr que on le avoir bien opacifiant francesca ne en falloir préparer le scan que il nous falloir le anjou et le scan un labo artériel
+2025-10-20 16:51:39,412 [WARNING] Erreur métriques pour enreJulien4_seg5.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): dans un labo artériel au cas de convoi le le nodule on luire faire un traitement pèr cutané on aller choisir un micro-onde si lésion que être dans le segment sept
+2025-10-20 16:51:43,292 [WARNING] Erreur métriques pour enreJulien4_seg6.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): lésion ok dans le segment faire donc fois mais le aigu de micro-ondes lui être coller au diaphragme donc il aller falloir que on de école dont comprendre un aiguille shiba et on prendre choix de liquide
+2025-10-20 16:51:47,457 [WARNING] Erreur métriques pour enreJulien4_seg7.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): ii shiba et on prendre choix de liquide être de ceo de votre qui aller nous falloir de liquide de ceo de quand vous aller prendre le liquide important de mettre un peu de contraste pas trop pour paquet de artefact on vous mettre
+2025-10-20 16:51:51,059 [WARNING] Erreur métriques pour enreJulien4_seg8.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): pour paquet de artefact on vous mettre un ce être à peu près pour aller cesser de dos et vous faire voir le localisation et le taille de un autre
+2025-10-20 16:51:54,089 [WARNING] Erreur métriques pour enreJulien4_seg9.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): voir le localisation et le taille de un eau de je vous proposer de faire cent watt dix minute donc le patient israel sousa je avoir bien sûr il être en décubitus dorsal il falloir bien
+2025-10-20 16:51:56,945 [WARNING] Erreur métriques pour enreVincent1_seg0.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): bonjour nous faire le briefing de patient rémi dubois donc identité
+2025-10-20 16:52:00,781 [WARNING] Erreur métriques pour enreVincent1_seg1.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): donc il avoir bien être vérifier donc que il se agir de un embolie notion de hémorroïde alors nous avoir installer sur i been de bois
+2025-10-20 16:52:03,429 [WARNING] Erreur métriques pour enreVincent1_seg10.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): le hydratation après il avoir être également identifier un allergie à produit de contraste normalement
+2025-10-20 16:52:06,287 [WARNING] Erreur métriques pour enreVincent1_seg11.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): contrast normalement le patient avoir devoir être préparer pendant trois jour être -ce que ce préparation médicamenteux avoir bien être faire
+2025-10-20 16:52:09,348 [WARNING] Erreur métriques pour enreVincent1_seg12.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): défaite ok y avoir pas de autre facteur de risque évoquer donc on pouvoir installer patient
+2025-10-20 16:52:11,029 [WARNING] Erreur métriques pour enreVincent1_seg13.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): stay patient
+2025-10-20 16:52:13,939 [WARNING] Erreur métriques pour enreVincent1_seg2.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): nous avoir installer sur ebay de bois en position normal dans le salle avec un échographie fin
+2025-10-20 16:52:16,910 [WARNING] Erreur métriques pour enreVincent1_seg3.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): ne être grave fin en place et de mais au pas pour le anesthésie pour réaliser le intervention
+2025-10-20 16:52:20,304 [WARNING] Erreur métriques pour enreVincent1_seg4.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): pour réaliser le intervention je avoir besoin de un interrupteur quatre french de un sonde saïd windows quatre f de un micro cathéter de type direction berne
+2025-10-20 16:52:23,735 [WARNING] Erreur métriques pour enreVincent1_seg5.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): ce type direction berne je utiliser un micro coil de type peu micro naître terre de thiè millimètre
+2025-10-20 16:52:27,092 [WARNING] Erreur métriques pour enreVincent1_seg6.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): terre de thiè millimètre chaise passion nous avoir identifier un trouble de le coagulation il être donc nécessaire
+2025-10-20 16:52:30,284 [WARNING] Erreur métriques pour enreVincent1_seg7.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): création il être donc nécessaire de réaliser un fermeture de bois de ponction à le aide de un système de fermeture type aussi le cinq f
+2025-10-20 16:52:33,539 [WARNING] Erreur métriques pour enreVincent1_seg8.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): ce être aussi le cinq f il y avoir par ailleurs aussi un insuffisance rénal limite donc il être
+2025-10-20 16:52:36,685 [WARNING] Erreur métriques pour enreVincent1_seg9.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): donc être très important de limiter au maximum le injection de troyes contrastée de prévoir un hydratation
+2025-10-20 16:52:39,422 [WARNING] Erreur métriques pour enreVincent2_seg0.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): bonjour le attaque le briefing pour Monsieur vincer vidal donc le le identité avoir bien être vérifier
+2025-10-20 16:52:42,852 [WARNING] Erreur métriques pour enreVincent2_seg1.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): à le identité avoir bien être vérifier et ok donc le patient aller être installer en position standard sur le table
+2025-10-20 16:52:45,790 [WARNING] Erreur métriques pour enreVincent2_seg10.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): hum il ne y avoir pas de problématique identifier très clairement chaise patient notamment pas de problème de coagulation ou fonction an
+2025-10-20 16:52:48,912 [WARNING] Erreur métriques pour enreVincent2_seg11.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): coagulation un fonction rénal voilà ce y avoir un question particulier
+2025-10-20 16:52:52,336 [WARNING] Erreur métriques pour enreVincent2_seg2.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): le table avec comme matériel disponible en écho grave pour faire le ponction de maillot pas pour
+2025-10-20 16:52:55,795 [WARNING] Erreur métriques pour enreVincent2_seg3.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): de mais pas pour le anesthésie nous avoir pratiquer un embolie de prostate aller donc falloir faire un à bord fémorale
+2025-10-20 16:52:58,786 [WARNING] Erreur métriques pour enreVincent2_seg4.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): avoir bord fémorale six french au niveau de pli un gwendal droit ensuite mettre en place un cathéter
+2025-10-20 16:53:02,911 [WARNING] Erreur métriques pour enreVincent2_seg5.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): le cathéter guide rdc six f en froid de injection à le seringue électrique avec de produit contrast diluer à cinq an
+2025-10-20 16:53:05,562 [WARNING] Erreur métriques pour enreVincent2_seg6.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): produit contrast diluer à cinquante pour cent je avoir besoin comme micro cathéter de
+2025-10-20 16:53:08,718 [WARNING] Erreur métriques pour enreVincent2_seg7.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): de type progrè temps avec un guide de théoriquement zéro zéro seize chaîne
+2025-10-20 16:53:12,438 [WARNING] Erreur métriques pour enreVincent2_seg8.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): hanche ensuite je aller prendre comme agent le action de micro sphère type en faire cinq cent tirer sept cent
+2025-10-20 16:53:15,363 [WARNING] Erreur métriques pour enreVincent2_seg9.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): cinq cent tirer sept cent et de micro code de type inè terrer de tirer sept millimètre homme
+2025-10-20 16:53:15,366 [INFO] 📁 Toutes les métriques v2 ont été enregistrées dans : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\results\benchmark_vosk-model-small-fr-0.22_v2.csv
+2025-10-20 16:58:29,783 [INFO] Benchmark du modèle : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\models\vosk-model-small-fr-0.22
+2025-10-20 16:58:29,784 [INFO] Nombre d'audios : 91 fichiers
+2025-10-20 16:58:30,237 [INFO] Using default tokenizer.
+2025-10-20 16:58:34,711 [WARNING] Erreur métriques pour enreJerome1_seg0.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): dès que il se agir de Monsieur jeannie mohammed pour le révélation de un terre ablation par micro ond de métastase hépatique
+2025-10-20 16:58:39,853 [WARNING] Erreur métriques pour enreJerome1_seg1.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): ce être à z hépatique de origine reiner un décision de son patient patienter en consultation un check list de bloc avoir être faire
+2025-10-20 16:58:44,180 [WARNING] Erreur métriques pour enreJerome1_seg2.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): de bloc avoir être faire on aller faire un guidage sou échographie an après le échographie principal
+2025-10-20 16:58:48,571 [WARNING] Erreur métriques pour enreJerome1_seg3.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): le principal tabulation aller être faire avec le générateur manger dynamique le générateur solaire oh oui un aiguille
+2025-10-20 16:58:53,218 [WARNING] Erreur métriques pour enreJerome1_seg4.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): un aiguille de quatorze cm et luire connaître un poche de froid comme ce être nécessaire à faire un bord sou écho par voie
+2025-10-20 16:58:57,947 [WARNING] Erreur métriques pour enreJerome1_seg5.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): avoir bord sou écho pas voir souci fois hygiène un seul aiguille via centrer un ablation par sur un ablation le six minute à le vie
+2025-10-20 16:59:01,741 [WARNING] Erreur métriques pour enreJerome1_seg6.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): de six minute à le puissance de cent watt un fois que ce être terminer le patient être réveiller
+2025-10-20 16:59:04,565 [WARNING] Erreur métriques pour enreJerome1_seg7.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): ce ne être réveiller et lui en le sortie être prévoir demain merci
+2025-10-20 17:03:03,083 [INFO] Benchmark du modèle : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\models\vosk-model-small-fr-0.22
+2025-10-20 17:03:03,084 [INFO] Nombre d'audios : 91 fichiers
+2025-10-20 17:03:03,520 [INFO] Using default tokenizer.
+2025-10-20 17:03:07,730 [WARNING] METEOR error enreJerome1_seg0.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): dès que il se agir de Monsieur jeannie mohammed pour le révélation de un terre ablation par micro ond de métastase hépatique
+2025-10-20 17:03:12,837 [WARNING] METEOR error enreJerome1_seg1.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): ce être à z hépatique de origine reiner un décision de son patient patienter en consultation un check list de bloc avoir être faire
+2025-10-20 17:03:17,116 [WARNING] METEOR error enreJerome1_seg2.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): de bloc avoir être faire on aller faire un guidage sou échographie an après le échographie principal
+2025-10-20 17:03:21,309 [WARNING] METEOR error enreJerome1_seg3.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): le principal tabulation aller être faire avec le générateur manger dynamique le générateur solaire oh oui un aiguille
+2025-10-20 17:03:25,741 [WARNING] METEOR error enreJerome1_seg4.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): un aiguille de quatorze cm et luire connaître un poche de froid comme ce être nécessaire à faire un bord sou écho par voie
+2025-10-20 17:03:30,282 [WARNING] METEOR error enreJerome1_seg5.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): avoir bord sou écho pas voir souci fois hygiène un seul aiguille via centrer un ablation par sur un ablation le six minute à le vie
+2025-10-20 17:03:33,876 [WARNING] METEOR error enreJerome1_seg6.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): de six minute à le puissance de cent watt un fois que ce être terminer le patient être réveiller
+2025-10-20 17:03:37,194 [WARNING] METEOR error enreJerome1_seg7.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): ce ne être réveiller et lui en le sortie être prévoir demain merci
+2025-10-20 17:03:43,795 [WARNING] METEOR error enreJerome2_seg0.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): lorsque il se agir de mme de jésus on aller faire un envoyer sur vénus pelvien au chef le cryptographie diagnostic
+2025-10-20 17:03:49,255 [WARNING] METEOR error enreJerome2_seg1.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): le filmographie diagnostic le semaine dernier qui avoir retrouver un seul la dire que gauche donc on aller pitier en cinq french quatre pièce avec le même
+2025-10-20 17:03:55,171 [WARNING] METEOR error enreJerome2_seg2.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): french requête notre avec le même matériel cobra cinq le embauche se faire avec véronique son ami le flacon de un extrême quatre six ce être à celer
+2025-10-20 17:04:00,739 [WARNING] METEOR error enreJerome2_seg3.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): quatre six avoir secouer on utiliser un micro-casque trou select un fois que cela être finir et avoir trancher en bus et on hum
+2025-10-20 17:04:05,011 [WARNING] METEOR error enreJerome2_seg4.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): dimanche en bus et on luire donner un rendez-vous consultation à trois mois aller ce être partir merci à tout
+2025-10-20 17:19:46,095 [WARNING] METEOR error enreJulien1_seg0.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): que de bonheur bonjour aujourd'hui on aller faire un radio fréquence de un nodule pulmonaire de lobby moyen il se agir
+2025-10-20 19:22:50,732 [WARNING] METEOR error enreJulien1_seg1.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): le bonheur de lobby moyen il se agir de un métastase aller probablement de un cancer prostatique donc
+2025-10-20 19:22:58,869 [WARNING] METEOR error enreJulien1_seg10.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): ce gîte et le président ahmadinejad ouai cela à le et voilà et après donc aller
+2025-10-20 19:26:20,499 [INFO] Benchmark du modèle : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\models\vosk-model-small-fr-0.22
+2025-10-20 19:26:20,499 [INFO] Nombre d'audios : 91 fichiers
+2025-10-20 19:26:21,162 [INFO] Using default tokenizer.
+2025-10-20 19:26:26,146 [WARNING] METEOR error enreJerome1_seg0.wav: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/wordnet[0m
+
+  Searched in:
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L/nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\share\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\lib\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-10-20 19:26:32,679 [WARNING] METEOR error enreJerome1_seg1.wav: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/wordnet[0m
+
+  Searched in:
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L/nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\share\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\lib\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-10-20 19:26:38,047 [WARNING] METEOR error enreJerome1_seg2.wav: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/wordnet[0m
+
+  Searched in:
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L/nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\share\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\lib\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-10-20 19:26:43,361 [WARNING] METEOR error enreJerome1_seg3.wav: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/wordnet[0m
+
+  Searched in:
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L/nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\share\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\lib\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-10-20 19:27:00,293 [INFO] Benchmark du modèle : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\models\vosk-model-small-fr-0.22
+2025-10-20 19:27:00,294 [INFO] Nombre d'audios : 91 fichiers
+2025-10-20 19:27:00,871 [INFO] Using default tokenizer.
+2025-10-20 19:27:05,817 [WARNING] METEOR error enreJerome1_seg0.wav: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/wordnet[0m
+
+  Searched in:
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L/nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\share\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\lib\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-10-20 19:27:12,180 [WARNING] METEOR error enreJerome1_seg1.wav: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/wordnet[0m
+
+  Searched in:
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L/nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\share\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\lib\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-10-20 19:27:17,519 [WARNING] METEOR error enreJerome1_seg2.wav: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/wordnet[0m
+
+  Searched in:
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L/nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\share\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\lib\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-10-20 19:27:22,405 [WARNING] METEOR error enreJerome1_seg3.wav: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/wordnet[0m
+
+  Searched in:
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L/nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\share\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\lib\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-10-20 19:27:27,607 [WARNING] METEOR error enreJerome1_seg4.wav: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/wordnet[0m
+
+  Searched in:
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L/nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\share\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\lib\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-10-20 19:27:33,243 [WARNING] METEOR error enreJerome1_seg5.wav: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/wordnet[0m
+
+  Searched in:
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L/nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\share\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\lib\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-10-20 19:27:37,914 [WARNING] METEOR error enreJerome1_seg6.wav: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/wordnet[0m
+
+  Searched in:
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L/nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\share\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\lib\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-10-20 19:27:41,388 [WARNING] METEOR error enreJerome1_seg7.wav: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/wordnet[0m
+
+  Searched in:
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L/nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\share\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\lib\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-10-20 19:27:48,806 [WARNING] METEOR error enreJerome2_seg0.wav: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/wordnet[0m
+
+  Searched in:
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L/nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\share\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\lib\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-10-20 19:27:55,483 [WARNING] METEOR error enreJerome2_seg1.wav: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/wordnet[0m
+
+  Searched in:
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L/nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\share\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\lib\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-10-20 19:28:02,389 [WARNING] METEOR error enreJerome2_seg2.wav: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/wordnet[0m
+
+  Searched in:
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L/nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\share\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\lib\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-10-20 19:28:09,174 [WARNING] METEOR error enreJerome2_seg3.wav: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/wordnet[0m
+
+  Searched in:
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L/nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\share\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\lib\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-10-20 19:28:14,452 [WARNING] METEOR error enreJerome2_seg4.wav: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/wordnet[0m
+
+  Searched in:
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L/nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\share\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\Desktop\\LabIA\\altusafe\\altusafe\\lib\\nltk_data'
+    - 'C:\\Users\\User.DESKTOP-R6U6E5L\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-10-20 19:29:02,249 [INFO] Benchmark du modèle : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\models\vosk-model-small-fr-0.22
+2025-10-20 19:29:02,250 [INFO] Nombre d'audios : 91 fichiers
+2025-10-20 19:29:02,803 [INFO] Using default tokenizer.
+2025-10-20 19:35:48,959 [INFO] 📁 Toutes les métriques v2 ont été enregistrées dans : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\results\benchmark_vosk-model-small-fr-0.22_v2.csv

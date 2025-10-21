@@ -9,20 +9,26 @@ from src.common.config import REPORTING_DIR, RESULTS_DIR
 # ---------------------------------------------------------------------
 # Lecture des résultats
 # ---------------------------------------------------------------------
-BENCHMARK_CSV = os.path.join(RESULTS_DIR, "medecin/benchmark_vosk-model-small-fr-0.22_medecin.csv")
+BENCHMARK_CSV = os.path.join(RESULTS_DIR, "benchmark_vosk-model-small-fr-0.22_v2.csv")
 df = pd.read_csv(BENCHMARK_CSV)
 
 # Nettoyage : mémoire négative → 0
-df['memory_mb'] = df['memory_mb'].apply(lambda x: max(0, x))
+if 'memory_mb' in df.columns:
+    df['memory_mb'] = df['memory_mb'].apply(lambda x: max(0, x))
 
-# Colonnes numériques à convertir
+# Colonnes numériques à convertir (si elles existent)
 num_cols = ['wer','wer_token','levenshtein','levenshtein_pct','accuracy','bleu3',
             'meteor','chrf','rougeL','latency_sec','memory_mb','duration_sec',
             'latency_per_sec','memory_per_sec','tokens','tokens_per_sec',
             'latency_per_token','memory_per_token','wer_per_token']
+
 for col in num_cols:
     if col in df.columns:
-        df[col] = pd.to_numeric(df[col], errors='coerce')
+        # Gestion spéciale chrf si c'est encore un dict ou str
+        if col == 'chrf':
+            df[col] = df[col].apply(lambda x: float(str(x).split('=')[-1]) if pd.notnull(x) else np.nan)
+        else:
+            df[col] = pd.to_numeric(df[col], errors='coerce')
 
 df_clean = df.dropna(subset=['transcript']).copy()
 
@@ -30,23 +36,27 @@ df_clean = df.dropna(subset=['transcript']).copy()
 os.makedirs(REPORTING_DIR, exist_ok=True)
 
 # ---------------------------------------------------------------------
-# Ajouter colonnes utiles
+# Ajouter colonnes utiles si les données existent
 # ---------------------------------------------------------------------
-df_clean['num_tokens'] = df_clean['transcript'].apply(lambda x: len(str(x).split()))
-df_clean = df_clean[df_clean['num_tokens'] > 0].copy()
+if 'transcript' in df_clean.columns:
+    df_clean['num_tokens'] = df_clean['transcript'].apply(lambda x: len(str(x).split()))
+    df_clean = df_clean[df_clean['num_tokens'] > 0].copy()
+    
+    if 'latency_sec' in df_clean.columns:
+        df_clean['latency_per_token'] = df_clean['latency_sec'] / df_clean['num_tokens']
+    if 'memory_mb' in df_clean.columns:
+        df_clean['memory_per_token'] = df_clean['memory_mb'] / df_clean['num_tokens']
 
-# Normalisation
-df_clean['latency_per_token'] = df_clean['latency_sec'] / df_clean['num_tokens']
-df_clean['memory_per_token'] = df_clean['memory_mb'] / df_clean['num_tokens']
-df_clean['wer_per_token'] = df_clean['wer'] / df_clean['num_tokens']
-df_clean['latency_per_sec'] = df_clean['latency_sec'] / df_clean['duration_sec']
-df_clean['memory_per_sec'] = df_clean['memory_mb'] / df_clean['duration_sec']
-df_clean['tokens_per_sec'] = df_clean['num_tokens'] / df_clean['duration_sec']
+if 'duration_sec' in df_clean.columns:
+    df_clean['latency_per_sec'] = df_clean['latency_sec'] / df_clean['duration_sec']
+    df_clean['memory_per_sec'] = df_clean['memory_mb'] / df_clean['duration_sec']
+    df_clean['tokens_per_sec'] = df_clean['num_tokens'] / df_clean['duration_sec']
+
+if 'wer' in df_clean.columns:
+    df_clean['wer_per_token'] = df_clean['wer'] / df_clean['num_tokens']
 
 # Colonnes pour stats et boxplots
-cols = ['latency_sec','memory_mb','wer','wer_token','levenshtein','levenshtein_pct',
-        'accuracy','bleu3','meteor','chrf','rougeL','latency_per_sec','memory_per_sec',
-        'tokens','tokens_per_sec','latency_per_token','memory_per_token','wer_per_token']
+cols = [c for c in num_cols if c in df_clean.columns]
 
 # ---------------------------------------------------------------------
 # Statistiques descriptives par modèle
@@ -58,20 +68,21 @@ for model_name, group_df in df_clean.groupby('model'):
     
     agg_dict = {}
     for col in cols:
-        if col in group_df:
-            col_data = group_df[col].dropna()
-            agg_dict[col] = {
-                'count': col_data.count(),
-                'mean': col_data.mean(),
-                'std': col_data.std(),
-                'min': col_data.min(),
-                '25%': col_data.quantile(0.25),
-                '50%': col_data.median(),
-                '75%': col_data.quantile(0.75),
-                'max': col_data.max(),
-                'skew': skew(col_data) if np.var(col_data) > 1e-12 else np.nan,
-                'kurtosis': kurtosis(col_data) if np.var(col_data) > 1e-12 else np.nan
-            }
+        col_data = group_df[col].dropna()
+        if col_data.empty:
+            continue
+        agg_dict[col] = {
+            'count': col_data.count(),
+            'mean': col_data.mean(),
+            'std': col_data.std(),
+            'min': col_data.min(),
+            '25%': col_data.quantile(0.25),
+            '50%': col_data.median(),
+            '75%': col_data.quantile(0.75),
+            'max': col_data.max(),
+            'skew': skew(col_data) if np.var(col_data) > 1e-12 else np.nan,
+            'kurtosis': kurtosis(col_data) if np.var(col_data) > 1e-12 else np.nan
+        }
     stats_df = pd.DataFrame(agg_dict).T
     stats_df.to_csv(os.path.join(model_dir, f"{model_name}_stats_medecin.csv"))
     stats[model_name] = stats_df
@@ -83,10 +94,6 @@ sns.set_style("whitegrid")
 sns.set_palette("pastel")
 
 for col in cols:
-    if col not in df_clean.columns:
-        continue
-
-    # Filtrer les lignes avec des valeurs non-NaN pour cette colonne
     df_plot = df_clean[['model', col]].dropna()
     if df_plot.empty:
         continue

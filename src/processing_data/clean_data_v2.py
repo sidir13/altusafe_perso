@@ -23,12 +23,17 @@ logger = logging.getLogger(__name__)
 # --------------------
 SEGMENT_DURATION = 10  # secondes
 OVERLAP = 2            # secondes
-TEMP_DIR = os.path.join(PROCESSED_DIR, "temp_wav")
 
-os.makedirs(PROCESSED_DIR, exist_ok=True)
+# Nouveau sous-dossier pour les segments
+SUBDIR = "wav_data_v2"
+OUTPUT_DIR = os.path.join(PROCESSED_DIR, SUBDIR)
+TEMP_DIR = os.path.join(OUTPUT_DIR, "temp_wav")
+
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(TEMP_DIR, exist_ok=True)
 
 logger.info(f"Début du traitement des fichiers audio dans : {MEDECIN_DATA_DIR}")
+logger.info(f"Les segments seront enregistrés dans : {OUTPUT_DIR}")
 
 # --------------------
 # Fonction conversion universelle (mp3/mp4/m4a/ogg -> wav)
@@ -103,7 +108,7 @@ for filename in os.listdir(MEDECIN_DATA_DIR):
         segment_waveform = waveform[start:end, :]
 
         segment_name = f"{os.path.splitext(filename)[0]}_seg{segment_idx}.wav"
-        out_path = os.path.join(PROCESSED_DIR, segment_name)
+        out_path = os.path.join(OUTPUT_DIR, segment_name)
         try:
             sf.write(out_path, segment_waveform, sample_rate)
             logger.info(f"  Segment {segment_idx}: {(end - start)/sample_rate:.2f}s -> {segment_name}")
@@ -114,4 +119,4 @@ for filename in os.listdir(MEDECIN_DATA_DIR):
         start += segment_samples - overlap_samples
         segment_idx += 1
 
-logger.info(f"✅ Traitement terminé. Tous les segments sont dans : {PROCESSED_DIR}")
+logger.info(f"✅ Traitement terminé. Tous les segments sont dans : {OUTPUT_DIR}")

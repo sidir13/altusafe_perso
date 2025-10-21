@@ -9,3 +9,9 @@ models/
 altusafe_venv/
 
 altusafe/
+
+vosk-api/
+
+venv_vosk3.12/
+
+venv_inference/
