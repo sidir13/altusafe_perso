@@ -41,7 +41,7 @@ os.makedirs(TRANSCRIPTS_DIR, exist_ok=True)
 # ---------------------------------------------------------------------
 # Chargement du modèle Vosk mini
 # ---------------------------------------------------------------------
-vosk_model_path = os.path.join(MODELS_DIR, "vosk-model-small-fr-0.22")  # <- placez votre modèle mini français ici
+vosk_model_path = os.path.join(MODELS_DIR, "vosk-model-small-fr-0.22")  
 if not os.path.exists(vosk_model_path):
     raise FileNotFoundError(f"Le modèle Vosk n'existe pas : {vosk_model_path}")
 

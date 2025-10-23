@@ -20,7 +20,7 @@ os.makedirs(REPORTING_DIR, exist_ok=True)  # crée le dossier si nécessaire
 
 # Sous-dossiers
 DATA_DIR = os.path.join(BASE_DIR, "data")
-INFERENCE_DIR = os.path.join(BASE_DIR, "inference")
+INFERENCE_DIR = os.path.join(DATA_DIR, "inference")
 MODELS_DIR = os.path.join(BASE_DIR, "models")
 RESULTS_DIR = os.path.join(BASE_DIR, "results")
 DOCS_DIR = os.path.join(BASE_DIR, "docs")
@@ -69,7 +69,7 @@ MEDICAL_VOCABULARY = [""]
 #     "rythme cardiaque",
 #     "tachycardie",
 #     "bradycardie",
-#     "glucose",
+#     "glucose"]
 #     "analyse sanguine",
 #     "IRM",
 #     "scanner",

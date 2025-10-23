@@ -65,7 +65,7 @@ def process_all_wav_files(wav_dir=WAV_DATA_DIR, output_dir=TRANSCRIPTS_DIR):
             results[filename] = text
             print(f"→ Reconnu : {text}")
 
-    # 🔖 Sauvegarde des transcriptions dans un JSON
+    #  Sauvegarde des transcriptions dans un JSON
     output_file = os.path.join(output_dir, "medical_transcripts.json")
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
