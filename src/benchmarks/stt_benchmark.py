@@ -15,7 +15,7 @@ from nltk.translate.bleu_score import sentence_bleu
 from nltk.translate.meteor_score import meteor_score
 from rouge_score import rouge_scorer
 import sacrebleu
-import spacy  # ✅ ajout pour la lemmatisation
+import spacy  
 
 from src.common.config import (
     DEFAULT_MODEL_FR,

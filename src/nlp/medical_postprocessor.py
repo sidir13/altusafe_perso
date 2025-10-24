@@ -38,7 +38,7 @@ class MedicalPostProcessorPhonetic:
         phrase_emb_original = self.emb_manager._get_embedding(sentence)
 
         for i, word in enumerate(words):
-            # 1️⃣ Sélection des N mots phonétiquement les plus proches
+            # Sélection des N mots phonétiquement les plus proches
             candidates = sorted(
                 self.vocab_phon.keys(),
                 key=lambda w: self._phonetic_distance(word, w)
@@ -47,7 +47,7 @@ class MedicalPostProcessorPhonetic:
             best_word = word
             best_score = -1.0
 
-            # 2️⃣ Test contextuel : remplace le mot dans la phrase et compare l'embedding global
+            #  Test contextuel : remplace le mot dans la phrase et compare l'embedding global
             for candidate in candidates:
                 test_phrase = " ".join(
                     words[:i] + [candidate] + words[i + 1 :]
@@ -61,7 +61,7 @@ class MedicalPostProcessorPhonetic:
                     best_score = score
                     best_word = candidate
 
-            # 3️⃣ Appliquer le remplacement si le score dépasse le seuil
+            # Appliquer le remplacement si le score dépasse le seuil
             if best_score >= self.threshold:
                 corrected_words.append(best_word)
                 if best_word != word:

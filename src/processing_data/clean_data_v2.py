@@ -119,4 +119,4 @@ for filename in os.listdir(MEDECIN_DATA_DIR):
         start += segment_samples - overlap_samples
         segment_idx += 1
 
-logger.info(f"✅ Traitement terminé. Tous les segments sont dans : {OUTPUT_DIR}")
+logger.info(f"Traitement terminé. Tous les segments sont dans : {OUTPUT_DIR}")

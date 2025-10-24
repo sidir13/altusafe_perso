@@ -45,9 +45,9 @@ vosk_model_path = os.path.join(MODELS_DIR, "vosk-model-small-fr-0.22")
 if not os.path.exists(vosk_model_path):
     raise FileNotFoundError(f"Le modèle Vosk n'existe pas : {vosk_model_path}")
 
-logger.info(f"🧠 Chargement du modèle Vosk : {vosk_model_path}...")
+logger.info(f"Chargement du modèle Vosk : {vosk_model_path}...")
 model = Model(vosk_model_path)
-logger.info("✅ Modèle Vosk chargé avec succès !")
+logger.info("Modèle Vosk chargé avec succès !")
 
 # ---------------------------------------------------------------------
 # Préparer le chemin de sortie pour la transcription
@@ -60,14 +60,14 @@ transcript_path = os.path.join(TRANSCRIPTS_DIR, f"{base_name}.txt")
 # ---------------------------------------------------------------------
 wf = wave.open(audio_file, "rb")
 if wf.getnchannels() != 1 or wf.getsampwidth() != 2 or wf.getframerate() not in [8000, 16000, 44100]:
-    logger.warning("⚠️ Le fichier audio doit être mono PCM 16bit (Vosk peut échouer sinon)")
+    logger.warning("Le fichier audio doit être mono PCM 16bit (Vosk peut échouer sinon)")
 
 rec = KaldiRecognizer(model, wf.getframerate())
 
 # ---------------------------------------------------------------------
 # Transcription
 # ---------------------------------------------------------------------
-logger.info(f"🎧 Transcription en cours : {audio_file}")
+logger.info(f"Transcription en cours : {audio_file}")
 transcription_text = ""
 while True:
     data = wf.readframes(4000)
@@ -86,7 +86,7 @@ transcription_text = transcription_text.strip()
 # ---------------------------------------------------------------------
 with open(transcript_path, "w", encoding="utf-8") as f:
     f.write(transcription_text)
-logger.info(f"📝 Transcription sauvegardée : {transcript_path}")
+logger.info(f"Transcription sauvegardée : {transcript_path}")
 
 # ---------------------------------------------------------------------
 # Ajouter au CSV
@@ -97,4 +97,4 @@ with open(CSV_PATH, mode="a", newline="", encoding="utf-8") as csv_file:
     if not csv_exists:
         writer.writerow(["audio_file", "transcript_file", "transcription_text"])
     writer.writerow([audio_file, transcript_path, transcription_text])
-logger.info(f"✅ CSV mis à jour : {CSV_PATH}")
+logger.info(f"CSV mis à jour : {CSV_PATH}")

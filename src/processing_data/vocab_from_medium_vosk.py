@@ -60,5 +60,5 @@ path_json = os.path.join(VOCAB_DATA_DIR, "words_clean.json")
 with open(path_json, "w", encoding="utf-8") as f:
     json.dump(tokens, f, ensure_ascii=False, indent=2)
 
-print(f"✅ Liste de {len(tokens)} tokens nettoyés enregistrée dans {path_json}")
+print(f"Liste de {len(tokens)} tokens nettoyés enregistrée dans {path_json}")
 print(tokens[:50])  # aperçu des 50 premiers tokens

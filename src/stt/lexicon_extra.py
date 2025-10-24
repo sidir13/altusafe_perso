@@ -25,13 +25,13 @@ def main():
 
     # Vérification d'existence
     if not os.path.exists(LEXICON_PATH):
-        logger.error(f"❌ Fichier introuvable : {LEXICON_PATH}")
+        logger.error(f"Fichier introuvable : {LEXICON_PATH}")
         return
 
     try:
         with open(LEXICON_PATH, "r", encoding="utf-8") as f:
             lexicon_extra = json.load(f)
-        logger.info(f"✅ Chargement réussi : {len(lexicon_extra)} entrées trouvées.")
+        logger.info(f"Chargement réussi : {len(lexicon_extra)} entrées trouvées.")
     except json.JSONDecodeError as e:
         logger.exception(f"Erreur lors du chargement du JSON : {e}")
         return
@@ -50,13 +50,13 @@ def main():
                 f.write(f"{word} {phones}\n")
                 count += 1
 
-        logger.info(f"✅ Lexique généré : {count} mots écrits dans {OUTPUT_LEXIC}")
+        logger.info(f" Lexique généré : {count} mots écrits dans {OUTPUT_LEXIC}")
 
     except Exception as e:
         logger.exception(f"Erreur lors de l'écriture du fichier : {e}")
         return
 
-    logger.info("🏁 Fin du processus de génération du lexique phonétique.")
+    logger.info(" Fin du processus de génération du lexique phonétique.")
 
 # ------------------ Exécution ------------------
 if __name__ == "__main__":

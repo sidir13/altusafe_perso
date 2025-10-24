@@ -18,7 +18,7 @@ VOCAB_PATH = os.path.join(VOCAB_DATA_DIR, "medical_vocab.json")
 with open(VOCAB_PATH, "r", encoding="utf-8") as f:
     vocab_list = json.load(f)
 
-print(f"🔍 Vocabulaire initial : {len(vocab_list)} mots")
+print(f"Vocabulaire initial : {len(vocab_list)} mots")
 
 # -----------------------------
 # Préparation des filtres
@@ -48,7 +48,7 @@ def is_noisy(word: str) -> bool:
 # Étape 1 : filtrer le vocabulaire
 # -----------------------------
 filtered_vocab = [w for w in vocab_list if not is_noisy(w)]
-print(f"✅ Après filtrage : {len(filtered_vocab)} mots conservés")
+print(f"Après filtrage : {len(filtered_vocab)} mots conservés")
 
 # -----------------------------
 # Étape 2 : compter les fréquences dans le corpus
@@ -75,5 +75,5 @@ top_100 = [w for w, _ in word_freq.most_common(100)]
 with open(VOCAB_PATH, "w", encoding="utf-8") as f:
     json.dump(sorted(top_100), f, ensure_ascii=False, indent=2)
 
-print(f"💾 Nouveau vocabulaire sauvegardé dans {VOCAB_PATH} (100 mots)")
-print("🏆 Exemple de mots :", sorted(top_100)[:20])
+print(f"Nouveau vocabulaire sauvegardé dans {VOCAB_PATH} (100 mots)")
+print("Exemple de mots :", sorted(top_100)[:20])

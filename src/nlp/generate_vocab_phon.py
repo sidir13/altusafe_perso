@@ -27,4 +27,4 @@ phon_path = os.path.join(VOCAB_DATA_DIR, phon_file)
 with open(phon_path, "w", encoding="utf-8") as f:
     json.dump(vocab_phon, f, ensure_ascii=False, indent=2)
 
-print(f"✅ Dictionnaire phonétique sauvegardé dans {phon_path}")
+print(f"Dictionnaire phonétique sauvegardé dans {phon_path}")

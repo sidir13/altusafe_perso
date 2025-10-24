@@ -9,7 +9,7 @@ os.makedirs(TRANSCRIPT_DIR, exist_ok=True)
 os.environ["TORCH_HOME"] = MODELS_DIR
 
 # Charger un modèle Whisper open source
-model = whisper.load_model("medium")  # ou "large-v3" si tu veux plus précis
+model = whisper.load_model("medium")  
 print(f" Modèle Whisper chargé depuis {MODELS_DIR}")
 
 # Parcourir les fichiers audio

@@ -39,7 +39,7 @@ print(f"Nombre de fichiers prêts pour fine-tuning : {len(manifest['audio'])}")
 
 # -------------------- Lancement du fine-tuning --------------------
 train_command = [
-    "vosk-train",                # Assurez-vous que l'exécutable vosk-train est dans le PATH
+    "vosk-train",               
     DEFAULT_MODEL_FR,
     manifest_path,
     output_model_dir

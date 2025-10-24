@@ -51,8 +51,8 @@ def process_all_wav_files(wav_dir=WAV_DATA_DIR, output_dir=TRANSCRIPTS_DIR):
 
     os.makedirs(output_dir, exist_ok=True)
 
-    # ⚙️ Chargement du modèle expérimental
-    print(f"📦 Chargement du modèle expérimental : {EXPERIMENTAL_MODEL_FR}")
+    # Chargement du modèle expérimental
+    print(f"Chargement du modèle expérimental : {EXPERIMENTAL_MODEL_FR}")
     model = Model(EXPERIMENTAL_MODEL_FR)
 
     results = {}
@@ -70,7 +70,7 @@ def process_all_wav_files(wav_dir=WAV_DATA_DIR, output_dir=TRANSCRIPTS_DIR):
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(f"\n✅ Résultats enregistrés dans : {output_file}")
+    print(f"\n Résultats enregistrés dans : {output_file}")
 
 
 # ---------------------------------------------------------------------

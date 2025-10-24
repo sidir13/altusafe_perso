@@ -78,7 +78,7 @@ for filename in os.listdir(MEDECIN_DATA_DIR):
     else:
         filepath_to_load = filepath
 
-    # 🔹 Charger avec soundfile
+    # Charger avec soundfile
     try:
         waveform, sample_rate = sf.read(filepath_to_load, dtype="float32")
         if waveform.ndim == 1:  # mono
@@ -91,7 +91,7 @@ for filename in os.listdir(MEDECIN_DATA_DIR):
     duration_sec = num_samples / sample_rate
     logger.info(f"Durée totale : {duration_sec:.2f}s, Sample rate : {sample_rate}, Channels : {waveform.shape[1]}")
 
-    # 🔹 Découpage en segments
+    # Découpage en segments
     segment_samples = int(SEGMENT_DURATION * sample_rate)
     overlap_samples = int(OVERLAP * sample_rate)
 
@@ -114,4 +114,4 @@ for filename in os.listdir(MEDECIN_DATA_DIR):
         start += segment_samples - overlap_samples
         segment_idx += 1
 
-logger.info(f"✅ Traitement terminé. Tous les segments sont dans : {PROCESSED_DIR}")
+logger.info(f"Traitement terminé. Tous les segments sont dans : {PROCESSED_DIR}")

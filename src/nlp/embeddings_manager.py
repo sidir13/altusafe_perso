@@ -38,13 +38,12 @@ class EmbeddingsManager:
     def _load_or_build_embeddings(self):
         """Charge le cache si présent ou calcule les embeddings"""
         if os.path.exists(self.cache_path):
-            print(f"⚡ Chargement des embeddings depuis le cache : {self.cache_path}")
+            print(f"Chargement des embeddings depuis le cache : {self.cache_path}")
             import numpy
-            # ⚠️ Permet de loader les objets picklés numpy avec PyTorch 2.6+
             with torch.serialization.safe_globals([numpy._core.multiarray._reconstruct]):
                 return torch.load(self.cache_path, weights_only=False)
 
-        print("🧬 Calcul des embeddings du vocabulaire...")
+        print("Calcul des embeddings du vocabulaire...")
         embeddings = {}
         for word in self.vocab:
             embeddings[word] = self._get_embedding(word)

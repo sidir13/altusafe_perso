@@ -64,7 +64,7 @@ with open(OPTIMIZED_VOCAB_PATH, "r", encoding="utf-8") as f:
 # Fusionner vocabulaire manuel et généré
 # FULL_VOCABULARY = sorted(set(MEDICAL_VOCABULARY + generated_vocab))
 FULL_VOCABULARY = sorted(set(generated_vocab))
-logger.info(f"📚 Taille du vocabulaire injecté : {len(FULL_VOCABULARY)} mots")
+logger.info(f"Taille du vocabulaire injecté : {len(FULL_VOCABULARY)} mots")
 
 # ----------------------- Fonctions utilitaires -----------------------
 def convert_to_wav(input_path, temp_filename="temp.wav"):
@@ -210,7 +210,7 @@ def main():
 
         write_csv(result, results_path)
 
-    logger.info(f"📁 Toutes les métriques ont été enregistrées dans : {results_path}")
+    logger.info(f"Toutes les métriques ont été enregistrées dans : {results_path}")
 
 if __name__ == "__main__":
     main()

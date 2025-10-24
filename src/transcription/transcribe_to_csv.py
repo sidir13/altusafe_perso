@@ -34,10 +34,10 @@ os.makedirs(RESULTS_DIR, exist_ok=True)
 # Chargement du modèle Whisper
 # ---------------------------------------------------------------------
 device = "cuda" if torch.cuda.is_available() else "cpu"
-logger.info(f"🧠 Chargement du modèle Whisper (large) sur {device}...")
+logger.info(f"Chargement du modèle Whisper (large) sur {device}...")
 try:
     model = whisper.load_model("large", device=device)
-    logger.info("✅ Modèle Whisper chargé avec succès !")
+    logger.info("Modèle Whisper chargé avec succès !")
 except Exception as e:
     logger.error(f"Erreur lors du chargement du modèle Whisper : {e}")
     raise SystemExit(1)
@@ -52,7 +52,7 @@ try:
 
         if not csv_exists:
             writer.writerow(["audio_file", "transcript_file", "transcription_text"])
-            logger.info("📄 Nouveau fichier CSV créé avec en-tête.")
+            logger.info(" Nouveau fichier CSV créé avec en-tête.")
 
         # -----------------------------------------------------------------
         # Parcourir tous les fichiers .wav dans WAV_DATA_DIR_v2 avec tqdm
@@ -64,7 +64,7 @@ try:
             base_name = os.path.splitext(file)[0]
             transcript_path = os.path.join(TRANSCRIPTS_DIR, f"{base_name}.txt")
 
-            logger.info(f"🎧 Transcription en cours : {audio_path}")
+            logger.info(f"Transcription en cours : {audio_path}")
             try:
                 result = model.transcribe(audio_path, language="fr")
                 text = result["text"].strip()
@@ -76,16 +76,16 @@ try:
             try:
                 with open(transcript_path, "w", encoding="utf-8") as f:
                     f.write(text)
-                logger.info(f"📝 Transcription sauvegardée : {transcript_path}")
+                logger.info(f"Transcription sauvegardée : {transcript_path}")
             except Exception as e:
                 logger.error(f"Impossible d’enregistrer {transcript_path} : {e}")
                 continue
 
             # Ajouter au CSV
             writer.writerow([audio_path, transcript_path, text])
-            logger.info(f"✅ Ligne ajoutée au CSV pour {file}")
+            logger.info(f"Ligne ajoutée au CSV pour {file}")
 
-    logger.info(f"\n📁 Toutes les transcriptions v2 sont enregistrées dans : {CSV_PATH}")
+    logger.info(f"\nToutes les transcriptions v2 sont enregistrées dans : {CSV_PATH}")
 
 except Exception as e:
     logger.error(f"Erreur générale pendant la création du CSV : {e}")

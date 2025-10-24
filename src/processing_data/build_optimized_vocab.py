@@ -66,7 +66,7 @@ with open(CSV_PATH, "r", encoding="utf-8") as f:
 # Top 200 mots les plus fréquents dans le corpus
 top_common = {w for w, _ in word_counter.most_common(200)}
 
-print(f"📊 Mots fréquents extraits : {len(top_common)}")
+print(f"Mots fréquents extraits : {len(top_common)}")
 
 # -----------------------------
 # Étape 3 : Fusionner intelligemment
@@ -79,6 +79,6 @@ optimized_vocab = sorted(medical_vocab.union(top_common))
 with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
     json.dump(optimized_vocab, f, ensure_ascii=False, indent=2)
 
-print(f"✅ Vocabulaire optimisé généré : {len(optimized_vocab)} mots")
-print(f"💾 Sauvegardé dans : {OUTPUT_PATH}")
-print("🧠 Exemple :", optimized_vocab[:30])
+print(f"Vocabulaire optimisé généré : {len(optimized_vocab)} mots")
+print(f"Sauvegardé dans : {OUTPUT_PATH}")
+print("Exemple :", optimized_vocab[:30])

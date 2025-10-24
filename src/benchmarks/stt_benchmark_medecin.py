@@ -215,7 +215,7 @@ def main():
 
         write_csv(result, results_path)
 
-    logger.info(f"📁 Toutes les métriques v2 ont été enregistrées dans : {results_path}")
+    logger.info(f"Toutes les métriques v2 ont été enregistrées dans : {results_path}")
 
 
 if __name__ == "__main__":

@@ -45,7 +45,7 @@ vocab_path = os.path.join(VOCAB_DATA_DIR, "medical_vocab_phon.json")
 # ---------------------------------------------------------------------
 # Chargement du modèle Vosk
 # ---------------------------------------------------------------------
-logger.info(f"🧠 Chargement du modèle Vosk : {vosk_model_path}")
+logger.info(f"Chargement du modèle Vosk : {vosk_model_path}")
 model = Model(vosk_model_path)
 
 # ---------------------------------------------------------------------
@@ -86,7 +86,7 @@ with open(CSV_PATH, mode="a", newline="", encoding="utf-8") as csv_file:
 # Boucle sur les fichiers audio
 # ---------------------------------------------------------------------
 for audio_file in audio_files:
-    logger.info(f"🎧 Transcription de {audio_file}")
+    logger.info(f"Transcription de {audio_file}")
 
     # Transcription brute avec Vosk
     wf = wave.open(audio_file, "rb")
@@ -108,14 +108,14 @@ for audio_file in audio_files:
     transcript_path_brut = os.path.join(TRANSCRIPTS_DIR, f"{base_name}_brut.txt")
     with open(transcript_path_brut, "w", encoding="utf-8") as f:
         f.write(text)
-    logger.info(f"📝 Transcription brute sauvegardée : {transcript_path_brut}")
+    logger.info(f"Transcription brute sauvegardée : {transcript_path_brut}")
 
     # Post-traitement médical contextuel
     corrected_text, replacements, cosine_scores = processor.process_sentence(text)
     transcript_path_corrige = os.path.join(TRANSCRIPTS_DIR, f"{base_name}_corrige.txt")
     with open(transcript_path_corrige, "w", encoding="utf-8") as f:
         f.write(corrected_text)
-    logger.info(f"✅ Transcription corrigée sauvegardée : {transcript_path_corrige}")
+    logger.info(f"Transcription corrigée sauvegardée : {transcript_path_corrige}")
 
     # Calcul de la distance de Levenshtein
     lev_dist = Levenshtein.distance(text, corrected_text)
@@ -139,4 +139,4 @@ for audio_file in audio_files:
             json.dumps(cosine_scores, ensure_ascii=False)
         ])
 
-    logger.info(f"📊 CSV mis à jour : {CSV_PATH}")
+    logger.info(f"CSV mis à jour : {CSV_PATH}")
