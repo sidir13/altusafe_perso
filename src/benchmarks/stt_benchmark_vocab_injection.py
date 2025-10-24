@@ -50,7 +50,7 @@ def lemmatize_text(text):
     return " ".join([token.lemma_ for token in doc if not token.is_punct and not token.is_space])
 
 # ----------------------- Charger et fusionner le vocabulaire -----------------------
-VOCAB_JSON_PATH = os.path.join(VOCAB_DATA_DIR, "medical_vocab.json")
+VOCAB_JSON_PATH = os.path.join(VOCAB_DATA_DIR, "words_clean.json")
 if os.path.exists(VOCAB_JSON_PATH):
     with open(VOCAB_JSON_PATH, "r", encoding="utf-8") as f:
         generated_vocab = json.load(f)
@@ -62,7 +62,8 @@ with open(OPTIMIZED_VOCAB_PATH, "r", encoding="utf-8") as f:
     MEDICAL_VOCABULARY = json.load(f)
 
 # Fusionner vocabulaire manuel et généré
-FULL_VOCABULARY = sorted(set(MEDICAL_VOCABULARY + generated_vocab))
+# FULL_VOCABULARY = sorted(set(MEDICAL_VOCABULARY + generated_vocab))
+FULL_VOCABULARY = sorted(set(generated_vocab))
 logger.info(f"📚 Taille du vocabulaire injecté : {len(FULL_VOCABULARY)} mots")
 
 # ----------------------- Fonctions utilitaires -----------------------
@@ -128,7 +129,7 @@ def write_csv(result, output_csv):
 # ----------------------- Script principal -----------------------
 def main():
     model_name = os.path.basename(EXPERIMENTAL_MODEL_FR.rstrip("/\\"))
-    results_path = os.path.join(RESULTS_DIR, f"benchmark_medical_v3.csv")
+    results_path = os.path.join(RESULTS_DIR, f"benchmark_medical_v4.csv")
 
     audio_files = [f for f in os.listdir(WAV_DATA_DIR) if f.lower().endswith(".wav")]
     if not audio_files:

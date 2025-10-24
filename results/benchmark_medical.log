@@ -95,3 +95,43 @@
 2025-10-20 15:14:01,996 [WARNING] Erreur métriques pour enreVincent1.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): falloir briefing de un patient rien mettre dubois installer traiter briefing de un se agir de un bout patient mohamed aller installer de origine dubois position normalement dorsal watt ne y cobra fois place nodule mettre poch pouvoir nestor pouvoir liquide attention je avoir besoin de un droit heure que être french de un sonde segment heure mettre fur de un micro interne type direct besoin je avoir utiliser dos micro que il do type micro nestor dos mettre mettre geste patient liquide trop bloc dos le as coagulation dos nestor de origine fermeture dubois ponction aller de un sonde fermeture typer souci simple part heure Monsieur essayer puissance rien aller liquide do faire traiter important interne maximum le injection trop contrast prendre watt unique attention prendre le as aiguille moyen de un type piquer ne avoir allergie produire contrast normalement lobe patient aiguille trop prendre part prendre droite de eau être -ce proposer patient mettre liquide amener faire que être part de autre fermeture rcp que être de un que on poche installer patient
 2025-10-20 15:14:04,476 [WARNING] Erreur métriques pour enreVincent2.wav: "hypothesis" expects pre-tokenized hypothesis (Iterable[str]): mois aujourd'hui table briefing Monsieur watt simple guidage de un le avoir aller de un petit table interne finir que être de un lobe patient watt installer position scan de aller faire table aller que on monsieur falloir ne y bloc cobra faire le as ponction de un mets poche pouvoir le avoir nestor ne avoir faire piquer ne avoir position prostat watt falloir faire ne avoir bout faire chc french niveau de un prendre guidage droit ensuite mettre place que être traiter guidage essayer froid demain le injection ablation select traiter produit contrast direct simple que on poch sonde jeter besoin que on micro interne type produire jeter aller guidage tumeur trop gros french ensuite je avoir prendre localisation micro fait type besoin simple direct sonde de aller micro cobra typ nestor direct segment mettre mettre ne y dos probablement petit guidage petit finir traiter chc patient mohamed poche probablement coagulation ponction rien aller que être partir utiliser
 2025-10-20 15:14:04,479 [INFO] 📁 Toutes les métriques ont été enregistrées dans : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\results\benchmark_medical_v3.csv
+2025-10-23 11:42:51,428 [INFO] 📚 Taille du vocabulaire injecté : 442831 mots
+2025-10-23 11:42:51,429 [INFO] Benchmark du modèle médical : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\models\vosk-model-small-fr-0.22-med
+2025-10-23 11:42:51,430 [INFO] Nombre d'audios : 8 fichiers
+2025-10-23 11:42:52,220 [INFO] Using default tokenizer.
+2025-10-23 11:48:23,416 [INFO] 📚 Taille du vocabulaire injecté : 442831 mots
+2025-10-23 11:48:23,417 [INFO] Benchmark du modèle médical : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\models\vosk-model-small-fr-0.22-med
+2025-10-23 11:48:23,418 [INFO] Nombre d'audios : 9 fichiers
+2025-10-23 11:48:24,057 [INFO] Using default tokenizer.
+2025-10-23 11:49:32,737 [INFO] 📚 Taille du vocabulaire injecté : 442831 mots
+2025-10-23 11:49:32,738 [INFO] Benchmark du modèle médical : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\models\vosk-model-small-fr-0.22-med
+2025-10-23 11:49:32,739 [INFO] Nombre d'audios : 9 fichiers
+2025-10-23 11:49:33,305 [INFO] Using default tokenizer.
+2025-10-23 11:52:17,901 [INFO] 📚 Taille du vocabulaire injecté : 442868 mots
+2025-10-23 11:52:17,902 [INFO] Benchmark du modèle médical : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\models\vosk-model-small-fr-0.22-med
+2025-10-23 11:52:17,902 [INFO] Nombre d'audios : 9 fichiers
+2025-10-23 11:52:18,486 [INFO] Using default tokenizer.
+2025-10-23 11:53:38,298 [INFO] 📚 Taille du vocabulaire injecté : 442868 mots
+2025-10-23 11:53:38,299 [INFO] Benchmark du modèle médical : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\models\vosk-model-small-fr-0.22-med
+2025-10-23 11:53:38,300 [INFO] Nombre d'audios : 9 fichiers
+2025-10-23 11:53:38,883 [INFO] Using default tokenizer.
+2025-10-23 11:57:05,373 [INFO] 📚 Taille du vocabulaire injecté : 418496 mots
+2025-10-23 11:57:05,374 [INFO] Benchmark du modèle médical : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\models\vosk-model-small-fr-0.22-med
+2025-10-23 11:57:05,374 [INFO] Nombre d'audios : 9 fichiers
+2025-10-23 11:57:05,942 [INFO] Using default tokenizer.
+2025-10-23 14:13:52,918 [INFO] 📚 Taille du vocabulaire injecté : 418496 mots
+2025-10-23 14:13:52,919 [INFO] Benchmark du modèle médical : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\models\vosk-model-small-fr-0.22-med
+2025-10-23 14:13:52,919 [INFO] Nombre d'audios : 9 fichiers
+2025-10-23 14:13:53,368 [INFO] Using default tokenizer.
+2025-10-23 14:16:21,275 [INFO] 📚 Taille du vocabulaire injecté : 418462 mots
+2025-10-23 14:16:21,276 [INFO] Benchmark du modèle médical : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\models\vosk-model-small-fr-0.22-med
+2025-10-23 14:16:21,276 [INFO] Nombre d'audios : 9 fichiers
+2025-10-23 14:16:21,731 [INFO] Using default tokenizer.
+2025-10-23 14:17:41,484 [INFO] 📚 Taille du vocabulaire injecté : 418416 mots
+2025-10-23 14:17:41,485 [INFO] Benchmark du modèle médical : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\models\vosk-model-small-fr-0.22-med
+2025-10-23 14:17:41,485 [INFO] Nombre d'audios : 9 fichiers
+2025-10-23 14:17:41,945 [INFO] Using default tokenizer.
+2025-10-23 14:31:36,915 [INFO] 📚 Taille du vocabulaire injecté : 418415 mots
+2025-10-23 14:31:36,916 [INFO] Benchmark du modèle médical : C:\Users\User.DESKTOP-R6U6E5L\Desktop\LabIA\altusafe\models\vosk-model-small-fr-0.22-med
+2025-10-23 14:31:36,917 [INFO] Nombre d'audios : 9 fichiers
+2025-10-23 14:31:37,362 [INFO] Using default tokenizer.
